@@ -12,33 +12,85 @@ body {
 #first {
     width: 871px;
     height: 478px;
-    background: url("../img/banner1.jpg");
+    background: url("../img/1.jpg");
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    color: white;
+    font-weight: 900;
+}
+
+#first h1 {
+    font-size: 46px;
+}
+
+#first p {
+    font-size: 26px;
+}
+
+#first button {
+    width: 150px;
+    height: 50px;
+    background-color: red;
+    border: 1px solid red;
     color: white;
 }
 
 #second {
     width: 871px;
     height: 478px;
-    background: url("../img/banner2.jpg");
+    background: url("../img/banner2.jpg") no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    color: white;
+    font-weight: 900;
+
+}
+
+#second h1 {
+    font-size: 46px;
+}
+
+#second p {
+    font-size: 26px;
+}
+
+#second button {
+    width: 150px;
+    height: 50px;
+    background-color: red;
+    border: 1px solid red;
     color: white;
 }
 
 #third {
     width: 871px;
     height: 478px;
-    background: url("../img/banner3.jpg");
+    background: url("../img/banner3.jpg") no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    color: white;
+    font-weight: 900;
+}
+
+#third h1 {
+    font-size: 46px;
+}
+
+#third p {
+    font-size: 26px;
+}
+
+#third button {
+    width: 150px;
+    height: 50px;
+    background-color: red;
+    border: 1px solid red;
     color: white;
 }
 
